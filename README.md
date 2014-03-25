@@ -13,7 +13,7 @@ This can be used to pre or post process email content when it is used in your ap
 curl -X POST http://127.0.0.1:4567/filter
   -H "Accept: application/json"
   -H 'Authorization: Token token="your_sha1_token"'
-  --data "email=row_email_string"
+  --data "email=row_email_string_base64_encoded"
 ```
 * Get your json response:
 ```js
